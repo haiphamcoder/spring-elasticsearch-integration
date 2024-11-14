@@ -1,8 +1,6 @@
 package com.haiphamcoder.elasticsearch.layer.application.repository.impl;
 
 import co.elastic.clients.elasticsearch.core.IndexResponse;
-import co.elastic.clients.elasticsearch.watcher.IndexResult;
-import co.elastic.clients.elasticsearch.watcher.IndexResultSummary;
 import co.elastic.clients.transport.rest_client.RestClientTransport;
 import com.haiphamcoder.elasticsearch.layer.application.domain.dto.Person;
 import com.haiphamcoder.elasticsearch.layer.application.repository.IPersonDataEsRepository;
